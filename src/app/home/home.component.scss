@@ -1,0 +1,31 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.button-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 10px; /* Adjust the spacing between buttons */
+}
+
+button {
+  padding: 10px 20px; /* Adjust the button padding */
+  background-color: #3498db; /* Set your desired background color */
+  color: #ffffff; /* Set your desired text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #2980b9; /* Set your desired hover background color */
+  }
+}
