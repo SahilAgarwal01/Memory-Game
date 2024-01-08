@@ -48,7 +48,7 @@ export class MemoryGame2Component {
     if (this.cards[index1].imagePath === this.cards[index2].imagePath) {
       this.matchedPairs.push(this.cards[index1]);
     } else {
-      this.misses;
+      this.misses++;
       this.cards[index1].isFlipped = false;
       this.cards[index2].isFlipped = false;
     }
